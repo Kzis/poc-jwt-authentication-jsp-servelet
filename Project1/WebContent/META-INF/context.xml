@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context path="/Project1">
+
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    
+    	<Resource name="jdbc/xxx"
+          global="jdbc/xxx"
+	      auth="Container"
+	      factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+	      type="javax.sql.DataSource"
+	      driverClassName="com.mysql.jdbc.Driver"
+	      url="jdbc:mysql://localhost:3306/inhouse_project"	      
+	      username="root"
+	      password="password"
+	      maxWait="-1"
+	      maxActive="10"
+	      maxIdle="5"
+	     />
+    	
+      <ResourceLink name="jdbc/xxx"
+                global="jdbc/xxx"
+                auth="Container"
+                type="javax.sql.DataSource" />
+
+</Context>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter>
+
+    <database>
+        <key>mysql_inhouse</key>
+    	<databaseType>mysql</databaseType>
+        <jndi>true</jndi>
+        <lookup>jdbc/xxx</lookup>
+        <schemas>[SCHEMAS]:inhouse_project</schemas>
+    </database>
+
+    
+</parameter>
