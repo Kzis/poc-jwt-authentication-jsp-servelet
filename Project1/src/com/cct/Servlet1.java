@@ -48,7 +48,7 @@ public class Servlet1 extends HttpServlet {
         String lastName = null;
         String dob = null;
         String sex = null;
-        
+        String xxxxxxxxxxxxxxxxxxxxxxxxxxx="";
         request.setAttribute("tokenJKT",token);
     	
         if(flag == null){
