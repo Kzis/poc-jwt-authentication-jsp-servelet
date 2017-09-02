@@ -17,5 +17,11 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/ojdbc14.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Project2"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Project3"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/com.fasterxml.jackson.core.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/com.fasterxml.jackson.databind.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jackson-annotations-2.1.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jjwt-0.6.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-6.0.33-tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-dbcp.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
