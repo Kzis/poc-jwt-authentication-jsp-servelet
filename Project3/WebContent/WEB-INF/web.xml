@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	
+   <welcome-file-list>
+       <welcome-file>main.jsp</welcome-file>
+   </welcome-file-list>
+  
+   	<!-- Login Servlet -->
+  	<servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.cct.LoginServlet</servlet-class>
+	</servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <!-- Servlet1 -->
+  	<servlet>
+        <servlet-name>Servlet1</servlet-name>
+        <servlet-class>com.cct.Servlet1</servlet-class>
+	</servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Servlet1</servlet-name>
+        <url-pattern>/Servlet1</url-pattern>
+    </servlet-mapping>
+    
+   <!-- Servlet2 -->
+   <servlet>
+        <servlet-name>Servlet2</servlet-name>
+        <servlet-class>com.cct.Servlet2</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Servlet2</servlet-name>
+        <url-pattern>/Servlet2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>WebAuthenServer</servlet-name>
+        <servlet-class>com.cct.WebAuthenServer</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>WebAuthenServer</servlet-name>
+        <url-pattern>/WebAuthenServer</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Servlet3 -->
+  	<servlet>
+        <servlet-name>Servlet3</servlet-name>
+        <servlet-class>com.cct.Servlet3</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Servlet3</servlet-name>
+        <url-pattern>/Servlet3</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>WebApplication</servlet-name>
+        <servlet-class>com.cct.WebApplication</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>WebApplication</servlet-name>
+        <url-pattern>/WebApplication</url-pattern>
+    </servlet-mapping>
+       
+</web-app>
