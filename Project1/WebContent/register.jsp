@@ -10,6 +10,11 @@
 	<form action="/HelloWorlda/RegisterServlet" method=post id="form1">
 	  User name: <input type="text" name="username"><br>
 	  Password: <input type="text" name="password"><br>
+	   Password: <input type="text" name="password"><br>
+	    Password: <input type="text" name="password"><br>
+	     Password: <input type="text" name="password"><br>
+	      Password: <input type="text" name="password"><br>
+	       Password: <input type="text" name="password"><br>
 	  <input type = "submit" value = "Register" />
 	</form>
 </body>
