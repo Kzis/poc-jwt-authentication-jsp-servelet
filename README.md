@@ -1,3 +1,5 @@
+![687474703a2f2f692e696d6775722e636f6d2f71444f4f75346f2e6a7067](https://user-images.githubusercontent.com/25294734/30025699-dd70b04c-91a3-11e7-8b05-9bdf9830a44f.jpg)
+
 # POC-JWT-Authentication-with-jsp-servelet
 Proof of concepts : JWT(JSON Web Token) Authentication with jsp/servlet
 My problem is : Have a 3 Project standalone but run on 1 server 
@@ -14,3 +16,6 @@ As show below.
 # Reference
 Thank a lot for idea to create this project
 - https://github.com/cerker/jwt-example/blob/master/src/main/java/de/akquinet/jbosscc/jwt/auth/JwtManager.java
+
+# DOCS
+- https://jwt.io/
