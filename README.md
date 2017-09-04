@@ -10,3 +10,7 @@ As show below.
 - JDK Version : 8 
 - Tomcat : 8
 - Encrypt algorithm : HMAC256 , HS256
+
+# Reference
+Thank a lot for idea to create this project
+- https://github.com/cerker/jwt-example/blob/master/src/main/java/de/akquinet/jbosscc/jwt/auth/JwtManager.java
