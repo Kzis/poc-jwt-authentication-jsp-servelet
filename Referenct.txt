@@ -1,0 +1,45 @@
+
+Doc Tomcat8
+https://tomcat.apache.org/tomcat-8.0-doc/manager-howto.html
+
+Project reference
+https://stackoverflow.com/questions/21255265/can-we-call-another-project-java-class-from-our-project-in-eclipse
+
+
+Call Servelet Another Project
+https://stackoverflow.com/questions/20139414/how-getrequestdispatcher-will-work-for-servlet-in-different-project-in-same-serv
+
+
+
+
+    http://www.sanfoundry.com/1000-java-algorithms-problems-programming-examples/
+    
+    
+    https://madushankaperera.wordpress.com/2013/03/12/submitting-jsp-form-data-to-servlet-with-jquery-ajax/
+    
+    JWT
+    https://github.com/cerker/jwt-example/blob/master/src/main/java/de/akquinet/jbosscc/jwt/auth/JwtManager.java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
