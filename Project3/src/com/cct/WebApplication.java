@@ -41,7 +41,7 @@ public class WebApplication extends HttpServlet {
 			else if(req.getAttribute("validateToken") == "Invalid"){
 				req.setAttribute("validateTokenResult", "Inalid");
 			}
-			
+			System.out.println("xxxxxxxx");
 			ServletContext context = getServletContext().getContext("/Project1");
             RequestDispatcher rd = context.getRequestDispatcher("/Servlet1");
             rd.forward(req, resp);
